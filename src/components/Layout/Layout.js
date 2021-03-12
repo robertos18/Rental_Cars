@@ -1,4 +1,3 @@
-import Fragment from '../../hoc/Fragment';
 import withClass from '../../hoc/withClass';
 
 function Layout(props) {
@@ -6,7 +5,7 @@ function Layout(props) {
     <>
       <div>{props.header}</div>
       <div className="container">
-          {props.menu}  
+        {props.menu}
       </div>
       <div className="container">
         {props.content}
