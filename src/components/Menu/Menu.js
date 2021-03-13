@@ -32,7 +32,7 @@ function Menu() {
         ) : (
           <>
             <li className={style.menuItem}>
-              <NavLink activeClassName={style.menuItemActive} to="/rejstracja">
+              <NavLink activeClassName={style.menuItemActive} to="/rejestracja">
                 Zarejestruj
                 </NavLink>
             </li>
