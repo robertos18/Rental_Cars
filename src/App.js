@@ -10,7 +10,7 @@ import ThemeButton from './components/UI/ThemeButton/ThemeButton';
 import ThemeContext from './context/themeContext';
 import AuthContext from './context/authContext';
 import ReducerContext from './context/reducerContext';
-import InsporingQuote from './components/InspiringQuote/InspiringQuote';
+import InspiringQuote from './components/InspiringQuote/InspiringQuote';
 import { reducer, intialState } from './reducer';
 import Home from './pages/Home/Home';
 import Car from './pages/Car/Car';
@@ -30,7 +30,7 @@ function App() {
 
   const header = (
     <Header>
-      <InsporingQuote />
+      <InspiringQuote />
       <Searchbar />
       <ThemeButton />
     </Header>

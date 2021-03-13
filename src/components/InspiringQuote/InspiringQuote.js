@@ -22,7 +22,7 @@ const styles = {
   fontStyle: 'italic',
 };
 
-function InsporingQuote(props) {
+function InspiringQuote(props) {
   const [quote, setQuote] = useState('Wczytywanie cytatu...');
   const [loading, setLoading] = useState(true);
 
@@ -39,4 +39,4 @@ function InsporingQuote(props) {
   );
 }
 
-export default InsporingQuote;
+export default InspiringQuote;
