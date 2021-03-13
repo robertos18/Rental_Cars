@@ -60,7 +60,7 @@ function Car(props) {
 
             {auth
               ? <p className="mt-2">Liczba drzwi: {props.doors}</p>
-              : <p className="mt-2">Dostępność: zaloguj</p>
+              : <p className="mt-2">Dostępność: po zalogowaniu się</p>
             }
 
           </div>
