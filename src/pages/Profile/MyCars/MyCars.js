@@ -39,9 +39,11 @@ export default function MyCars(props) {
       {cars ? (
         <table className="table">
           <thead>
-            <th>Nazwa</th>
-            <th>Status</th>
-            <th>Opcje</th>
+            <tr>
+              <th>Nazwa</th>
+              <th>Status</th>
+              <th>Opcje</th>
+            </tr>
           </thead>
           <tbody>
             {cars.map(car => (
