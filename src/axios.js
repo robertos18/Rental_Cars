@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_DATABASE
+  baseURL: 'https://project-react-695c0-default-rtdb.firebaseio.com/'
 });
 
 export default instance;
